@@ -1,0 +1,153 @@
+/**
+ Tamplte Name: Disfolio
+ Author: DiscreteDev
+ Version: 1.0.0
+ */
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Fonts variables*/
+$text-font: 'Roboto',
+sans-serif;
+$title-font: 'Rubik',
+sans-serif;
+
+/*--------------------------------------------------------------
+>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Typography
+2. Spacing
+3. General
+4. Preloader
+5. Header
+6. Button
+7. Slider
+8. Section Heading
+9. Icon box
+10. Text Block
+11. Text Block
+12. Video Block
+13. Image Box
+14. Funfact
+15. Isotope
+16. Image Gallery
+17. Skill
+18. Post
+19. Testimonial
+20. Contact Form
+21. Blog Details
+22. Comments
+23. Footer
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1. Typography
+----------------------------------------------------------------*/
+
+body,
+html {
+  color: $text-color;
+  background-color: $base-color4;
+  font-family: $text-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h3,
+h6 {
+  clear: both;
+  color: $base-color3;
+  font-family: $title-font;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin: 0 0 15px 0;
+  padding-left: 15px;
+  list-style: square outside none;
+}
+
+ol {
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 15px;
+}
+
+address {
+  margin: 0 0 15px;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+@media screen and (max-width: 991px) {
+
+  body,
+  html {
+    font-size: 14px;
+  }
+}
