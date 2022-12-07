@@ -97,7 +97,9 @@ hr {
 .branding-logo {
   max-width: 10vw !important;
 }
-
+.logo-icon {
+  display: block !important;
+}
 @media screen and (max-width: 991px) {
   .st-content {
     margin: 0 !important;
@@ -105,6 +107,9 @@ hr {
 
   .st-vertical-mist-le {
     display: block;
+  }
+  .logo-icon {
+    display: hidden !important;
   }
 
 }
